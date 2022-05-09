@@ -24,8 +24,6 @@ describe('Testando o componente About', () => {
     const parag1 = screen.getByText(PARAG1);
     const parag2 = screen.getByText(PARAG2);
 
-    console.log(PARAG1);
-
     expect(parag1).toBeInTheDocument();
     expect(parag2).toBeInTheDocument();
   });
